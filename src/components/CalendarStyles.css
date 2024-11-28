@@ -1,0 +1,53 @@
+.calendar-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .calendar-title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .custom-calendar {
+    border: none;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .react-calendar__tile {
+    height: 50px;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: 0.3s ease;
+  }
+  
+  .react-calendar__tile:hover {
+    background: #f0f8ff;
+    color: #007bff;
+  }
+  
+  .holiday-tile {
+    background: #ffeded !important;
+    color: #d9534f !important;
+    font-weight: bold;
+    border: 1px solid #d9534f;
+  }
+  
+  .holiday-label {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.7rem;
+    color: #d9534f;
+  }
+  
+  .selected-date {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #555;
+  }
